@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>icon</title>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+</head>
+<style>
+body{
+	height: 100vh;
+	/*background-color: black;*/
+}
+
+#icon {
+    display: inline-block;
+    width: 100px;
+    width: 100px;
+    border-radius: 25px;
+    background: -webkit-linear-gradient(left top, #EC368D, #F5A8CD);
+    background: -o-linear-gradient(bottom right, #EC368D, #F5A8CD);
+    background: -moz-linear-gradient(bottom right, #EC368D, #F5A8CD);
+    background: linear-gradient(to bottom right, #EC368D, #F5A8CD);
+    position: relative;
+    box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.3);
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+i {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    color: #EC368D;
+}
+
+
+/*i:before {
+    box-shadow: 4px 4px 5px rgba(20%, 20%, 40%, 0.5);
+}*/
+
+#span1 {
+    width: 120px;
+    height: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 70%;
+    left: 35px;
+    transform: rotate(110deg);
+    overflow: hidden;
+}
+
+#span2 {
+    width: 130px;
+    height: 20px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: -5px;
+    left: -40px;
+    transform: rotate(165deg);
+    overflow: hidden;
+}
+
+#span3 {
+    width: 60px;
+    height: 60px;
+    border-left: 3px solid white;
+    border-radius: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+</style>
+
+<body>
+    <div id="icon"><i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+        <p>.</p>
+        <p>.</p>
+        <div id="span1">.</div>
+        <div id="span2">.</div>
+        <div id="span3">.</div>
+    </div>
+</body>
+
+</html>
